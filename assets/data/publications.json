@@ -1,0 +1,50 @@
+{
+  "source": "Existing site entries (initial partial snapshot; run GitHub Action to replace)",
+  "profile": "https://scholar.google.com/citations?user=apugsswAAAAJ",
+  "updated_utc": null,
+  "count": 6,
+  "publications": [
+    {
+      "title": "ShearFuse-UNet: Hadamard, DCT, and Shearlet Transform Fusion for Next-Day Wildfire Spread Prediction",
+      "authors": "Ene Meco, Yingyi Luo, Emadeldeen Hamdan, Adam Watts, and Ahmet Enis Cetin",
+      "venue": "arXiv:2606.14071 · Preprint",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2606.14071"
+    },
+    {
+      "title": "Real-Time Instantaneous Phase Estimation Using a Deep Dual-Branch Complex Neural Network",
+      "authors": "Emadeldeen Hamdan, Yingyi Luo, Ryan Forelli, et al.",
+      "venue": "IEEE Transactions on Biomedical Engineering, 73(9), 3128–3139 · Online publication: 2025",
+      "year": "2026",
+      "url": "https://doi.org/10.1109/TBME.2025.3647598"
+    },
+    {
+      "title": "VHU-Net: Variational Hadamard U-Net for Body MRI Bias Field Correction",
+      "authors": "Xin Zhu, Ahmet Enis Cetin, Gorkem Durak, et al.",
+      "venue": "Medical Image Analysis, 110, 103955",
+      "year": "2026",
+      "url": "https://doi.org/10.1016/j.media.2026.103955"
+    },
+    {
+      "title": "Wildfire Detection via Transfer Learning: A Survey",
+      "authors": "Ziliang Hong, Emadeldeen Hamdan, Yifei Zhao, Tianxiao Ye, Hongyi Pan, and Ahmet Enis Cetin",
+      "venue": "Signal, Image and Video Processing, 18, 207–214 · Online publication: 2023",
+      "year": "2024",
+      "url": "https://doi.org/10.1007/s11760-023-02728-3"
+    },
+    {
+      "title": "A Hybrid Quantum-Classical Approach Based on the Hadamard Transform for the Convolutional Layer",
+      "authors": "Hongyi Pan, Xin Zhu, Salih Furkan Atici, and Ahmet Cetin",
+      "venue": "International Conference on Machine Learning (ICML), PMLR 202, 26891–26903",
+      "year": "2023",
+      "url": "https://proceedings.mlr.press/v202/pan23d.html"
+    },
+    {
+      "title": "Fast Walsh-Hadamard Transform and Smooth-Thresholding Based Binary Layers in Deep Neural Networks",
+      "authors": "Hongyi Pan, Diaa Badawi, and Ahmet Enis Cetin",
+      "venue": "IEEE/CVF CVPR Workshops, 4650–4659",
+      "year": "2021",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021W/BiVision/papers/Pan_Fast_Walsh-Hadamard_Transform_and_Smooth-Thresholding_Based_Binary_Layers_in_Deep_CVPRW_2021_paper.pdf"
+    }
+  ]
+}
