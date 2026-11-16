@@ -45,14 +45,14 @@
     .then(data => {
       const entries = Array.isArray(data.publications) ? data.publications : [];
       if (!entries.length) throw new Error('No bibliography loaded');
-      entries.sort((a, b) => (Number(b.year) || 0) - (Number(a.year) || 0));
+      // Keep Google Scholar's publication-date order from the supplied source.
       form.hidden = false;
       render(entries);
       search.addEventListener('input', () => render(entries, search.value));
       form.addEventListener('reset', () => setTimeout(() => render(entries), 0));
       if (note) note.textContent = data.updated_utc
-        ? `Bibliography snapshot updated ${new Date(data.updated_utc).toLocaleDateString()}. Source: Google Scholar.`
-        : 'Google Scholar publication list. Automated synchronization has not yet completed.';
+        ? `Bibliography snapshot updated ${new Date(data.updated_utc).toLocaleDateString()}. Source: ${data.source || 'public bibliography records'}.`
+        : 'Snapshot of the 20 most recent items in Google Scholar publication-date order; see the profile for the complete record.';
     })
     .catch(() => {
       count.textContent = 'Publication data currently unavailable';

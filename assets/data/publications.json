@@ -1,50 +1,188 @@
 {
-  "source": "Existing site entries (initial partial snapshot; run GitHub Action to replace)",
-  "profile": "https://scholar.google.com/citations?user=apugsswAAAAJ",
-  "updated_utc": null,
-  "count": 6,
+  "source": "Google Scholar profile HTML supplied by the user (sorted by publication date; first 20 rows)",
+  "profile": "https://scholar.google.com/citations?user=apugsswAAAAJ&hl=en&view_op=list_works&sortby=pubdate",
+  "updated_utc": "2026-11-16T08:57:20+00:00",
+  "count": 20,
   "publications": [
     {
+      "title": "Zonal-Aware Prostate Cancer Detection and Classification via Hadamard-Fused Mamba-UNet",
+      "authors": "E Hamdan, G Durak, ME Tasci, HE Aktas, F Bol, EB Gok, ME Akpinar, ...",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2610.40720",
+      "url": "https://arxiv.org/abs/2610.40720",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:rp474-M6Y4oC",
+      "source_order": 1
+    },
+    {
+      "title": "Learned Queries and Keys Are All You Need: Replacing the Value Projection with Structured Transforms",
+      "authors": "E Meco, E Hamdan, AE Cetin",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2609.36698",
+      "url": "https://arxiv.org/abs/2609.36698",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:1YatL4jblGcC",
+      "source_order": 2
+    },
+    {
+      "title": "Image Reconstruction from Phase with Untrained Neural Priors",
+      "authors": "E Meco, AE Cetin",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2609.30659",
+      "url": "https://arxiv.org/abs/2609.30659",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:QI7uKX5mnFEC",
+      "source_order": 3
+    },
+    {
+      "title": "Deep learning framework for automated cervical vertebral maturation staging using CBCT scans",
+      "authors": "OH Milani, A Nikho, L Mills, M Tliba, V Allareddy, R Ansari, AE Cetin, ...",
+      "year": "2026",
+      "venue": "Scientific Reports",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:zGWyAL6qfKUC",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:zGWyAL6qfKUC",
+      "source_order": 4
+    },
+    {
+      "title": "Spine Sound Classification: An Explainable Machine Learning Approach",
+      "authors": "AH Sham, H Gültekin, İ Uzunoğlu, EK Öztürk, E Çetin, E Acaroğlu, ...",
+      "year": "2026",
+      "venue": "IEEE Open Journal of Engineering in Medicine and Biology",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:h-xndbdg2koC",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:h-xndbdg2koC",
+      "source_order": 5
+    },
+    {
+      "title": "WHTMix: Efficient Stereo Depth Estimation via Walsh-Hadamard Token Mixing",
+      "authors": "P Sajith, E Hamdan, AE Cetin",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2607.25234",
+      "url": "https://arxiv.org/abs/2607.25234",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:-w1eE4La9_EC",
+      "source_order": 6
+    },
+    {
+      "title": "Artificial intelligence for comprehensive skeletal maturity assessment: a unified CBCT-based deep learning framework",
+      "authors": "A Nikho, L Mills, OH Milani, M Tliba, V Allareddy, AE Cetin, MH Elnagar",
+      "year": "2026",
+      "venue": "Scientific Reports",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:G7txJ4jiatkC",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:G7txJ4jiatkC",
+      "source_order": 7
+    },
+    {
+      "title": "Normalized Least Mean Square Based Optimization Algorithms for Deep Learning",
+      "authors": "E Türeyen, Ö Morgül, AE Çetin",
+      "year": "2026",
+      "venue": "2026 34th Signal Processing and Communications Applications Conference (SIU …",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:Weau3kkTRIMC",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:Weau3kkTRIMC",
+      "source_order": 8
+    },
+    {
       "title": "ShearFuse-UNet: Hadamard, DCT, and Shearlet Transform Fusion for Next-Day Wildfire Spread Prediction",
-      "authors": "Ene Meco, Yingyi Luo, Emadeldeen Hamdan, Adam Watts, and Ahmet Enis Cetin",
-      "venue": "arXiv:2606.14071 · Preprint",
+      "authors": "E Meco, Y Luo, E Hamdan, A Watts, AE Cetin",
       "year": "2026",
-      "url": "https://arxiv.org/abs/2606.14071"
+      "venue": "arXiv preprint arXiv:2606.14071",
+      "url": "https://arxiv.org/abs/2606.14071",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:beqBT5984LEC",
+      "source_order": 9
     },
     {
-      "title": "Real-Time Instantaneous Phase Estimation Using a Deep Dual-Branch Complex Neural Network",
-      "authors": "Emadeldeen Hamdan, Yingyi Luo, Ryan Forelli, et al.",
-      "venue": "IEEE Transactions on Biomedical Engineering, 73(9), 3128–3139 · Online publication: 2025",
+      "title": "A Large Scale Open-Source Image and Video Dataset for Robust Wildfire Detection and Classification",
+      "authors": "E Hamdan, Y Luo, BU Toreyin, E Koyuncu, AJ Watts, U Gudukbay, ...",
       "year": "2026",
-      "url": "https://doi.org/10.1109/TBME.2025.3647598"
+      "venue": "arXiv preprint arXiv:2606.10174",
+      "url": "https://arxiv.org/abs/2606.10174",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:Amrzk_ktLr0C",
+      "source_order": 10
     },
     {
-      "title": "VHU-Net: Variational Hadamard U-Net for Body MRI Bias Field Correction",
-      "authors": "Xin Zhu, Ahmet Enis Cetin, Gorkem Durak, et al.",
-      "venue": "Medical Image Analysis, 110, 103955",
+      "title": "Deep Learning Methods for SAR Ship Classification under Data Scarcity, Class Imbalance, and Limited Resolution",
+      "authors": "CM Awais",
       "year": "2026",
-      "url": "https://doi.org/10.1016/j.media.2026.103955"
+      "venue": "",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:RgMnzfD6kpIC",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:RgMnzfD6kpIC",
+      "source_order": 11
     },
     {
-      "title": "Wildfire Detection via Transfer Learning: A Survey",
-      "authors": "Ziliang Hong, Emadeldeen Hamdan, Yifei Zhao, Tianxiao Ye, Hongyi Pan, and Ahmet Enis Cetin",
-      "venue": "Signal, Image and Video Processing, 18, 207–214 · Online publication: 2023",
-      "year": "2024",
-      "url": "https://doi.org/10.1007/s11760-023-02728-3"
+      "title": "DynGhost: Temporally-Modelled Transformer for Dynamic Ghost Imaging with Quantum Detectors",
+      "authors": "V Palladino, AE Cetin",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2605.10185",
+      "url": "https://arxiv.org/abs/2605.10185",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:djft3U1LymYC",
+      "source_order": 12
     },
     {
-      "title": "A Hybrid Quantum-Classical Approach Based on the Hadamard Transform for the Convolutional Layer",
-      "authors": "Hongyi Pan, Xin Zhu, Salih Furkan Atici, and Ahmet Cetin",
-      "venue": "International Conference on Machine Learning (ICML), PMLR 202, 26891–26903",
-      "year": "2023",
-      "url": "https://proceedings.mlr.press/v202/pan23d.html"
+      "title": "Hybrid Multi-Dimensional MRI Prostate Cancer Detection via Hadamard Network-Based Bias Correction and Residual Networks",
+      "authors": "E Hamdan, G Durak, ME Tasci, AL Campos, A Chatterjee, R Engelmann, ...",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2604.17107",
+      "url": "https://arxiv.org/abs/2604.17107",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:PazO6pb-sMwC",
+      "source_order": 13
     },
     {
-      "title": "Fast Walsh-Hadamard Transform and Smooth-Thresholding Based Binary Layers in Deep Neural Networks",
-      "authors": "Hongyi Pan, Diaa Badawi, and Ahmet Enis Cetin",
-      "venue": "IEEE/CVF CVPR Workshops, 4650–4659",
-      "year": "2021",
-      "url": "https://openaccess.thecvf.com/content/CVPR2021W/BiVision/papers/Pan_Fast_Walsh-Hadamard_Transform_and_Smooth-Thresholding_Based_Binary_Layers_in_Deep_CVPRW_2021_paper.pdf"
+      "title": "Progressive Deep Learning for Automated Spheno-Occipital Synchondrosis Maturation Assessment",
+      "authors": "OH Milani, A Nikho, M Tliba, L Mills, E Hamdan, AE Cetin, MH Elnagar",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2604.10945",
+      "url": "https://arxiv.org/abs/2604.10945",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:mS4qin7VKjkC",
+      "source_order": 14
+    },
+    {
+      "title": "WTHaar-Net: a Hybrid Quantum-Classical Approach",
+      "authors": "V Palladino, T Idden, AE Cetin",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2603.02497",
+      "url": "https://arxiv.org/abs/2603.02497",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:UY3hNwcQ290C",
+      "source_order": 15
+    },
+    {
+      "title": "Deep Learning Based Wildfire Detection for Peatland Fires Using Transfer Learning",
+      "authors": "E Hamdan, AF Tharima, MZM Tohir, DNS Musa, E Koyuncu, AJ Watts, ...",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2603.02465",
+      "url": "https://arxiv.org/abs/2603.02465",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:vkz5F8TaVKkC",
+      "source_order": 16
+    },
+    {
+      "title": "U-net with hadamard transform and dct latent spaces for next-day wildfire spread prediction",
+      "authors": "Y Luo, S Rong, A Watts, AE Cetin",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2602.11672",
+      "url": "https://arxiv.org/abs/2602.11672",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:3pYxbvHKFu8C",
+      "source_order": 17
+    },
+    {
+      "title": "VHU-Net: Variational hadamard U-Net for body MRI bias field correction",
+      "authors": "X Zhu, AE Cetin, G Durak, B Gundogdu, Z Hong, H Pan, E Aktas, E Keles, ...",
+      "year": "2026",
+      "venue": "Medical Image Analysis, 103955",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:VBDT71xRUdcC",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:VBDT71xRUdcC",
+      "source_order": 18
+    },
+    {
+      "title": "Reconfigurable electromagnetically unclonable functions based on graphene radio-frequency modulators",
+      "authors": "Y Ren, CH Sun, M De Silva, H Pan, X Nie, E Hamdan, Z Zhou, AE Cetin, ...",
+      "year": "2026",
+      "venue": "ACS nano 20 (1), 421-431",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:w5CyTnyFq80C",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:w5CyTnyFq80C",
+      "source_order": 19
+    },
+    {
+      "title": "Real-time Instantaneous Phase Estimation Using a Deep Dual-Branch Complex Neural Network",
+      "authors": "E Hamdan, Y Luo, R Forelli, M Liufu, N Zhou, S Shridhar, E Quattrocchi, ...",
+      "year": "2025",
+      "venue": "IEEE Transactions on Biomedical Engineering",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:RmcNAhKkducC",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=apugsswAAAAJ&sortby=pubdate&authuser=3&citation_for_view=apugsswAAAAJ:RmcNAhKkducC",
+      "source_order": 20
     }
   ]
 }
