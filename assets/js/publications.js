@@ -51,7 +51,7 @@
       search.addEventListener('input', () => render(entries, search.value));
       form.addEventListener('reset', () => setTimeout(() => render(entries), 0));
       if (note) note.textContent = data.updated_utc
-        ? `Bibliography snapshot updated ${new Date(data.updated_utc).toLocaleDateString()}. Source: ${data.source || 'public bibliography records'}.`
+        ? `Bibliography updated ${new Date(data.updated_utc).toLocaleDateString()}. Source: ${'Google Scholar'}.`
         : 'Snapshot of the 20 most recent items in Google Scholar publication-date order; see the profile for the complete record.';
     })
     .catch(() => {
