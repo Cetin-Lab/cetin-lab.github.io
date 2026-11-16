@@ -7,11 +7,15 @@ from scholarly import scholarly
 
 PROFILE_ID = 'apugsswAAAAJ'
 OUTPUT = Path('assets/data/publications.json')
+MAX_PUBLICATIONS = 50
 
 
 def main():
     author = scholarly.search_author_id(PROFILE_ID)
-    author = scholarly.fill(author, sections=['publications'])
+    author = scholarly.fill(
+        author, sections=['publications'], sortby='year',
+        publication_limit=MAX_PUBLICATIONS
+    )
     raw = author.get('publications', [])
     if not raw:
         raise RuntimeError('No publications received; keeping prior data.')
@@ -42,7 +46,8 @@ def main():
         })
     if not result:
         raise RuntimeError('No usable records received; keeping prior data.')
-    result.sort(key=lambda p: (int(p['year']) if p['year'].isdigit() else 0, p['title'].casefold()), reverse=True)
+    result.sort(key=lambda p: int(p['year']) if p['year'].isdigit() else 0, reverse=True)
+    result = result[:MAX_PUBLICATIONS]
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     temp = OUTPUT.with_suffix('.json.tmp')
     temp.write_text(json.dumps({
