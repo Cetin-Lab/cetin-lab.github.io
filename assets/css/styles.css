@@ -17,3 +17,66 @@
   object-position: center;
   flex-shrink: 0;
 }
+
+
+/* Formal academic style */
+:root {
+  --ink: #222222;
+  --muted: #555555;
+  --red: #163a63;
+  --paper: #ffffff;
+  --white: #ffffff;
+  --line: #dddddd;
+}
+
+h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: normal;
+}
+
+.hero h1,
+.page-intro h1 {
+  font-size: clamp(32px, 4vw, 48px);
+}
+
+h2,
+.feature h2 {
+  font-size: 30px;
+}
+
+.hero h1 em {
+  color: var(--ink);
+  font-style: normal;
+}
+
+.eyebrow {
+  letter-spacing: 1px;
+}
+
+.image-frame::before {
+  display: none;
+}
+
+.feature,
+.pi-teaser,
+.funding,
+.filter-panel {
+  background: #f3f4f5;
+  color: var(--ink);
+}
+
+.feature p,
+.feature .eyebrow,
+.art-caption {
+  color: var(--muted) !important;
+}
+
+.feature a {
+  color: var(--red);
+}
+
+.button:hover {
+  background: #102c4b;
+  color: #ffffff;
+}
