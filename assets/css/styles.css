@@ -7,3 +7,13 @@
 @media(max-width:420px){.container{width:calc(100% - 32px)}.hero h1{font-size:47px}.hero .actions{gap:11px}.button{gap:13px;padding-inline:16px}.photo-caption{flex-direction:column;gap:3px}.principal{grid-template-columns:1fr}.principal-photo{width:130px}.person-card{padding:21px 18px;gap:16px}.initials{flex-basis:48px;width:48px;height:48px;font-size:21px}.person-card h3{font-size:21px}.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}.filter-panel button{font-size:12px}.publication{grid-template-columns:1fr;gap:9px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
 @media print{.topbar,.site-header,.site-footer,.filter-panel,.actions,.skip-link{display:none!important}body{background:white;color:black;font-size:11pt}.container{width:100%}.page-intro,.section{padding-block:20px}.publication,.person-card,.repo{break-inside:avoid}.publication[hidden]{display:grid!important}a{text-decoration:underline}.hero-grid{display:block}.hero-figure{max-width:350px;margin-top:25px}.feature{background:white;color:black}.feature p,.feature a{color:black}}
+
+
+.person-photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  flex-shrink: 0;
+}
